@@ -1,0 +1,7 @@
+[project]
+name = "DevUtils"
+version = "0.0.1"
+authors = [{ name = "Mooling0602" }]
+description = "An unofficial pyz format tool package for developing MCDReforged."
+readme = "README.md"
+license = { text = "GPLv3" }

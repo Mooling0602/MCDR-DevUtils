@@ -1,0 +1,15 @@
+{
+    "id": "dev_utils",
+    "version": "0.0.1",
+    "name": "DevUtils",
+    "description": {
+        "en_us": "An unofficial pyz format tool package for developing MCDReforged.",
+        "zh_cn": "一个 pyz 格式的非官方 MCDReforged 开发工具包。"
+    },
+    "author": "Mooling0602",
+    "link": "https://github.com/Mooling0602/MCDR-DevUtils",
+    "dependencies": {
+        "mcdreforged": ">=2.13"
+    },
+    "entrypoint": "dev_utils.mcdr.entry"
+}
