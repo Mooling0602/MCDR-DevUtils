@@ -6,8 +6,8 @@ from dev_utils.logger import SimpleLogger
 
 
 logger = SimpleLogger(prefix="DevUtils")
-
 logger.info("DevUtils is loading as a pyz package.")
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -17,7 +17,9 @@ def main():
 
     subparsers = parser.add_subparsers(dest='command')
 
-    meta_parser = subparsers.add_parser('meta', help='Generate meta file in json.')
+    meta_parser = subparsers.add_parser(
+        'meta', help='Generate meta file in json.'
+    )
 
     args = parser.parse_args()
 
@@ -33,6 +35,7 @@ def main():
             print("用户取消输入！")
     else:
         parser.print_help()
+
 
 if __name__ == '__main__':
     main()
